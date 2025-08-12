@@ -19,6 +19,8 @@ export const metadata = {
   icons: {
     icon: '/favicon.ico',
   },
+  title: "wiki-tech",
+  description: "Projeto de estudo e desenvolvimento de uma wiki sobre tecnologia",
 };
 
 export default function RootLayout({ children }) {
