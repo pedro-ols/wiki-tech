@@ -1,0 +1,335 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, purple 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid purple;
+}
+
+.section h2 {
+  color: purple;
+  font-size: 1.8rem;
+  margin: 0 0 1.5rem 0;
+  font-weight: 600;
+}
+
+
+.section h3 {
+  color: purple;
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+}
+.section h4 {
+  color: purple;
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.section p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureList li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.featureList li:before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: purple;
+  font-weight: bold;
+}
+
+.featureList li:last-child {
+  border-bottom: none;
+}
+
+.highlight {
+  color: purple;
+}
+
+.codeBlock {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1rem 0;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.codeBlock code {
+  background: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.codeBlock pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.advantage {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+.advantage h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  color: purple;
+}
+
+.advantage p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.prosConsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.prosSection,
+.consSection {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.prosSection h3 {
+  color: #28a745;
+  margin: 0 0 1rem 0;
+}
+
+.consSection h3 {
+  color: #dc3545;
+  margin: 0 0 1rem 0;
+}
+
+.marketInfo,
+.classroomInfo {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid purple;
+}
+
+.marketInfo p,
+.classroomInfo p {
+  margin: 0 0 1rem 0;
+}
+
+.marketInfo p:last-child,
+.classroomInfo p:last-child {
+  margin: 0;
+}
+
+.examples {
+  margin-top: 1rem;
+}
+
+.exampleCategory {
+  margin-bottom: 2rem;
+}
+
+.exampleCategory h3 {
+  color: purple;
+  font-size: 1.4rem;
+  margin: 0 0 1rem 0;
+  border-bottom: 2px solid purple;
+  padding-bottom: 0.5rem;
+}
+
+.exampleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.exampleItem {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.exampleItem h4 {
+  color: purple;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.exampleItem p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.useCases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.useCases li {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+  font-weight: 500;
+  color: #333;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.resourceLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.resourceLink:hover {
+  background: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .advantages {
+    grid-template-columns: 1fr;
+  }
+  
+  .prosConsContainer {
+    grid-template-columns: 1fr;
+  }
+  
+  .exampleGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .useCases {
+    grid-template-columns: 1fr;
+  }
+  
+  .section {
+    padding: 1.5rem;
+  }
+  
+  .codeBlock {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .prosConsContainer {
+    gap: 1rem;
+  }
+  
+  .prosSection,
+  .consSection {
+    padding: 1rem;
+  }
+  
+  .marketInfo,
+  .classroomInfo {
+    padding: 1rem;
+  }
+}
