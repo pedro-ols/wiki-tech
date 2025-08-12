@@ -11,11 +11,10 @@ const Header = () => {
                 </Link>
                 <nav className={styles.nav}>
                     <Link href="/" className={styles.navLink}>Início</Link>
-                    <Link href="/frameworks" className={styles.navLink}>Frameworks</Link>
-                    <Link href="/bibliotecas-estilos" className={styles.navLink}>Bibliotecas de Estilos</Link>
-                    <Link href="/nextjs-15" className={styles.navLink}>Next.js 15</Link>
-                    <Link href="/nextjs-15" className={styles.navLink}>Next.js 15</Link>
-                    <Link href="/nextjs-15" className={styles.navLink}>Next.js 15</Link>
+                    <Link href="/" className={styles.navLink}>Frameworks</Link>
+                    <Link href="/" className={styles.navLink}>Bibliotecas de Estilos</Link>
+                    <Link href="/" className={styles.navLink}>Next.js 15</Link>
+                    <Link href="/" className={styles.navLink}>App Router</Link>
                 </nav>
             </div>
         </header>
