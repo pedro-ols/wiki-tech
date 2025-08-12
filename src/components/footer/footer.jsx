@@ -10,8 +10,8 @@ const Footer = () => {
                     <span>Gabriela Feranda</span>
                     <span>Giovanni Gonçalves</span>
                     <span>Pedro Oliveira</span>
-                    <span>Ana Costa</span>
-                    <span>Lucas Ferreira</span>
+                    <span>Vinicius Valverde</span>
+                    <span>Vitor Sampaio</span>
                 </div>
                 <p>&copy; 2025 Wiki Tech. Todos os direitos reservados.</p>
             </div>
