@@ -1,0 +1,300 @@
+.container {
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mainTitle {
+  color: #000;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.versionBadge {
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.versionBadge:hover {
+  transform: translateY(-2px);
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  color: #333;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.strengthsTitle {
+  border-bottom: 3px solid #000;
+}
+
+.noveltiesTitle {
+  border-bottom: 3px solid #000;
+}
+
+.curiositiesTitle {
+  border-bottom: 3px solid #000;
+}
+
+.companiesTitle {
+  border-bottom: 3px solid #000;
+}
+
+.opportunitiesTitle {
+  border-bottom: 3px solid #000;
+}
+
+.grid {
+  display: grid;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.gridAutoFit {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.gridTwoColumns {
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.gridCompanies {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.highlightBox {
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.noveltiesBox {
+  background-color: #ffffff;
+  border: 2px solid #000;
+}
+
+.companiesBox {
+  background-color: #ffffff;
+  border: 2px solid #000;
+}
+
+.noveltiesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.noveltySection {
+  margin-bottom: 20px;
+}
+
+.noveltySection h3 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.noveltySection ul {
+  line-height: 1.8;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.curiosityCard {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: transform 0.3s ease;
+}
+
+.curiosityCard:hover {
+  transform: scale(1.02);
+}
+
+.curiosityPink {
+  background-color: #ffffff;
+  border-color: #000;
+}
+
+.curiosityBlue {
+  background-color: #ffffff;
+  border-color: #000;
+}
+
+.curiosityGreen {
+  background-color: #ffffff;
+  border-color: #000;
+}
+
+.curiosityYellow {
+  background-color: #ffffff;
+  border-color: #000;
+}
+
+.curiosityTitle {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.companyCategory {
+  padding: 15px;
+}
+
+.companyTitle {
+  color: #000;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.opportunitiesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.opportunitySection h3 {
+  color: #f39c12;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.areaBox {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.marketBox {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.specializationBox {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  margin-top: 20px;
+}
+
+.specializationTitle {
+  color: #000;
+  margin-top: 0;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.skillCategory {
+  margin-bottom: 10px;
+}
+
+.skillCategory strong {
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Animation for cards */
+
+.card,
+.curiosityCard {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Focus states for accessibility */
+.card:focus,
+.curiosityCard:focus {
+  outline: 2px solid #0070f3;
+  outline-offset: 2px;
+}
+
+/* Corrigir grid para curiosidades */
+.gridCuriosities {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+/* Adicionar responsividade para curiosidades */
+@media (max-width: 768px) {
+  /* ...existing code... */
+  
+  .gridCuriosities {
+    grid-template-columns: 1fr;
+  }
+  
+  /* ...existing code... */
+}
+
+
